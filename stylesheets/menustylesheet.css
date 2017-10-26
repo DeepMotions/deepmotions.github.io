@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    height: 150px;
+}
+li {
+    float: right;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 40px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #000000;
+    color: white;
+}
