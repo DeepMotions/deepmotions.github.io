@@ -50,23 +50,23 @@
 }
 .content h1 {
   color: black;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', sans-serif;
   font-weight: 700;
 }
 .footer h1 {
   color: #3f3f3f;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bitter', sans-serif;
   font-weight: 700;
 }
 .content p {
   color: black;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 .footer p {
   color: #3f3f3f;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 body {
   margin: 0px;
