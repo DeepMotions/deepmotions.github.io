@@ -17,7 +17,7 @@
   height: 100%;
 }
 .logo {
-  margin: 10px 10px 20px 20px;
+  margin: 10px 20px 10px 20px;
 }
 .image {
   width: 100%;
@@ -70,6 +70,14 @@
 }
 body {
   margin: 0px;
+}
+h1 {
+  margin: 5px 0px 5px 0px;
+  font-size: 30px;
+}
+p {
+  margin: 10px 0px 10px 0px;
+  font-size: 17px;
 }
 #header {
   background-image: url('../images/header.jpg');
