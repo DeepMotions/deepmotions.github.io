@@ -82,6 +82,18 @@ a {
   color: #999999;
   text-decoration: none;
 }
+.pagebody ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.pagebody li {
+  display: inline-block;
+}
+.pagebody img {
+  margin: 20px;
+}
 #header {
   background-image: url('../images/header.jpg');
   background-position: 0% -800%;
@@ -90,7 +102,7 @@ a {
 }
 #footer {
   background-image: url('../images/footer.jpg');
-  background-position: 0% -800%;
+  background-position: 0% -600%;
   background-attachment: fixed;
   background-size: cover;
 }
