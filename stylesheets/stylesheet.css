@@ -106,3 +106,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
 }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
