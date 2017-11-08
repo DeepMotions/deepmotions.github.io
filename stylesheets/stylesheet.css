@@ -78,6 +78,10 @@ p {
   margin: 10px 0px 10px 0px;
   font-size: 20px;
 }
+a {
+  color: #999999;
+  text-decoration: none;
+}
 #header {
   background-image: url('../images/header.jpg');
   background-position: 0% -800%;
