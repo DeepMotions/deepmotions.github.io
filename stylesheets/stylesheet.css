@@ -47,12 +47,12 @@
 .body {
   overflow: hidden;
 }
-.content h6 {
+.content h1 {
   color: black;
   font-family: 'Bitter', sans-serif;
   font-weight: 700;
 }
-.footer h6 {
+.footer h1 {
   color: #3f3f3f;
   font-family: 'Bitter', sans-serif;
   font-weight: 700;
@@ -70,12 +70,12 @@
 body {
   margin: 0px;
 }
-h6 {
-  margin: 5px 0px 5px 0px;
+h1 {
+  margin: 5px 0px 5px 200px;
   font-size: 40px;
 }
 p {
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 200px;
   font-size: 20px;
 }
 a {
@@ -84,7 +84,7 @@ a {
 }
 .pagebody ul {
   list-style-type: none;
-  margin: 0px;
+  margin: 0px 130px 0px 130px;
   padding: 0px;
   text-align: center;
 }
@@ -100,9 +100,15 @@ a {
   background-attachment: fixed;
   background-size: cover;
 }
-#footer {
+#footershort {
   background-image: url('../images/footer.jpg');
-  background-position: 0% -600%;
+  background-position: 0% -1000%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#footerlong {
+  background-image: url('../images/footer.jpg');
+  background-position: 0% -400%;
   background-attachment: fixed;
   background-size: cover;
 }
