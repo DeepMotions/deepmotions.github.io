@@ -49,22 +49,22 @@
 }
 .content h1 {
   color: black;
-  font-family: 'Bitter', sans-serif;
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
 }
 .footer h1 {
   color: #3f3f3f;
-  font-family: 'Bitter', sans-serif;
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
 }
 .content p {
   color: black;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 .footer p {
   color: #3f3f3f;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 body {
@@ -75,7 +75,7 @@ h1 {
   font-size: 40px;
 }
 p {
-  margin: 0px;
+  margin: 5px 0px 5px 0px;
   font-size: 20px;
 }
 a {
@@ -102,7 +102,7 @@ a {
 }
 #footershort {
   background-image: url('../images/footer.jpg');
-  background-position: 0% -1000%;
+  background-position: 0% -900%;
   background-attachment: fixed;
   background-size: cover;
 }
