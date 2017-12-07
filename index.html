@@ -7,6 +7,10 @@
     </head>
       <body class="body">
           <iframe class="menu" src="menu.html"></iframe>
-          <iframe class="page" name="page" src="home.html"></iframe>
+          <iframe id="page" class="page" name="page" src="home.html"></iframe>
+          <script>
+          var title = $("#page").contents().find("title").html();
+          $(document).find("title").html(title);
+          </script>
       </body>
   </html>
