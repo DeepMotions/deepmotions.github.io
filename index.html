@@ -1,12 +1,16 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>DeepMotions</title>
       <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
       <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
       <body class="body">
           <iframe class="menu" src="menu.html"></iframe>
           <iframe id="page" class="page" name="page" src="home.html"></iframe>
       </body>
+      <script>
+      var title = $("#page").contents().find("title").html();
+      $(document).find("title").html(title);
+      </script>
   </html>
