@@ -112,32 +112,38 @@ a {
     width: 0px;
     background: transparent;
 }
-label p {
-  margin: 10px 0px 0px 0px;
+label {
+  display: block;
+  height: 10px;
 }
 text {
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
-input {
+input, textarea {
   border: 1px;
   border-style: solid;
   border-color: #999999;
   font-size: 15px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-}
-input[type=text] {
-  width: 25%;
+  height: 20px;
   padding: 5px;
 }
-input[type=email] {
+input[type=text], input[type=email] {
   width: 25%;
-  padding: 5px;
 }
-input[class=biginput] {
-  width: 100%;
-  box-sizing: border-box;
+input[type=submit] {
+  height: 30px;
+}
+input[type=radio] {
+  height: 25px;
+  margin: 5px;
+}
+.biginput {
+  width: 50%;
+  max-width: 75%;
+  max-height: 200px;
   resize: both;
 }
