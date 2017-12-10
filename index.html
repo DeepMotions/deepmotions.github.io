@@ -7,11 +7,14 @@
     </head>
       <body class="body">
           <iframe class="menu" src="menu.html"></iframe>
-          <iframe id="title" class="page" name="page" src="home.html">
-            <title>Home</title>
-          </iframe>
+          <iframe id="content" class="page" name="page" src="home.html"></iframe>
+            <script type="text/javascript">
+            document.getElementById("content").onload = function() {
+   var iframeTitle = document.getElementById("content").contentDocument.title;
+   if (document.title != iframeTitle) {
+     document.title = iframeTitle;
+   }
+ }
+            </script>
       </body>
-      <script type="text/javascript">
-      document.title = document.getElementById('title').contentWindow.document.title;
-      </script>
   </html>
