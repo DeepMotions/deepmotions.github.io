@@ -133,7 +133,17 @@ input[type=text], input[type=email] {
   width: 25%;
 }
 input[type=submit] {
-  height: 30px;
+  height: 40px;
+  width: 100px;
+  background: #0059a2;
+  border: 0px;
+  border-bottom: 5px solid #00447c;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+input[type=submit]:hover {
+  background: #0066ba;
 }
 input[type=radio] {
   height: 20px;
