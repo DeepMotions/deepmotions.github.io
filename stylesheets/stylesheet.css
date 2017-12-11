@@ -26,16 +26,16 @@
   z-index: 1;
 }
 .content {
-  width: calc(100% - 26%);
-  padding: 50px 13% 50px 13%;
+  width: calc(100% - 25%);
+  padding: 50px 12.5% 50px 12.5%;
   background-color: white;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 2;
 }
 .footer {
-  width: calc(100% - 26%);
-  padding: 50px 13% 50px 13%;
+  width: calc(100% - 25%);
+  padding: 50px 12.5% 50px 12.5%;
   background-color: #0c0c0c;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -78,16 +78,16 @@ a {
   color: #0059a2;
   text-decoration: none;
 }
-.pagebody ul {
+#pagebodyvideos ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
-.pagebody li {
+#pagebodyvideos li {
   display: inline-block;
 }
-.pagebody img {
+#pagebodyvideos img {
   margin: 15px;
 }
 #header {
@@ -154,4 +154,33 @@ input[type=radio] {
   max-width: 75%;
   max-height: 200px;
   resize: both;
+}
+.table {
+  width: 100%;
+}
+.table p {
+  margin: 0px;
+}
+.table h1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.table a {
+  color: #3f3f3f;
+}
+td {
+  vertical-align: top;
+  width: 25%;
+  padding: 0px 2% 0px 2%;
+}
+.footerborder {
+  border-style: solid;
+  border-width: 0px 1.5px 0px 0px;
+  border-color: #1e1e1e;
+}
+.logofooter {
+  padding: 0px;
+  margin: 0px;
+  width: 65%;
+  height: auto;
 }
